@@ -1,12 +1,12 @@
 {
   "name": "multiplication-game",
-  "homepage": "http://gamesrow.com/multiply",
+  "homepage": "https://gamesrow.com/multiply",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build --base=/multiply",
     "preview": "vite preview"
   },
   "dependencies": {
